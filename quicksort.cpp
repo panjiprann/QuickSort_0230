@@ -69,8 +69,8 @@ void q_short( int low, int high )
         if (i < j) //step 9
         {
             //swap elements at index i with the element at index j
-            swap(low, j);
+            swap(i, j);
         }
-        
+
     }   
 }
