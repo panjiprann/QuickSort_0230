@@ -7,7 +7,8 @@ int cmp_count = 0; // number of comparision
 int mov_count = 0; //number of moves
 int n;
 
-void input() {
+void input()
+ {
     while (true)
     {
         cout << "masukan panjang element array: ";
@@ -18,5 +19,13 @@ void input() {
         else
         cout << "\nmaksimum panjang array adalah 20" << endl;
     }    
-    
+    cout << "\n--------------------" << endl;
+    cout << "\nEnter Array Element" << endl;
+    cout << "\n--------------------" << endl;
+
+    for (int i=0;i < n; i++)
+    {
+        cout << "<" << (i+1) << ">";
+        cin >> arr[i];
+    }
 }
